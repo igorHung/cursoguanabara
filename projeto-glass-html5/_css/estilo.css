@@ -54,17 +54,42 @@
                 height: 100%
                 
             }
-            
-            nav li{   
-                position: relative;
-                display:inline;
-                margin-right: 30px;
-            }
-            
+        
             #foto-grande{
                 text-align: center;
             }
 
             figure.foto-legenda:hover figcaption{
                 opacity: 100;
+            }
+            nav#menu{
+                display: block;
+
+            }
+            nav#menu li {
+                transition: background-color 1s;
+                display: inline-block;
+                background-color: #dddddd;
+                padding: 8px;
+                margin: 1px;
+
+            }
+            ul {
+                text-transform: uppercase;
+                list-style: none;
+                position: absolute;
+                top: -20px;
+                left: 740px;
+                
+            }
+            nav#menu li:hover{
+                background-color: rgba(123, 124, 122, 0.877);
+            }
+            
+            nav#menu a{
+                color: #000000;
+                text-decoration: none;
+            }
+            nav#menu a:hover{
+                color: #ffffff;
             }
