@@ -20,9 +20,44 @@
                 
             }
 
+            section#corpo{
+                display: block;
+                float: left;
+                width: 470px;
+                border-right: 1px solid #888888;
+                padding-right: 14px;
+
+            }
+
+            table#tabelaspec{
+                border: 1px solid #888888;
+                border-spacing: 0px;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            table#tabelaspec td{
+                border: 1px solid #888888;
+                padding: 10px;
+            }
+
+            aside#lateral{
+                display: block;
+                float: right;
+                width: 400px;
+            }
+
+            footer#rodape{
+                clear: both;
+                text-align: center;
+                padding: 7px; 
+                border-top: 1px solid #888888
+
+            }
+
             header#cabecalho img#icone{
                 position: absolute;
-                left: 862px;
+                left: 882px;
                 top: 50px;
 
             }
@@ -64,6 +99,7 @@
                 padding-bottom: 4px;
                 
             }
+
             figure.foto-legenda{
                 position: relative;
                 border: 8px solid white;
