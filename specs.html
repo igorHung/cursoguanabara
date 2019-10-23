@@ -13,7 +13,7 @@
             <script src="_javascript/funcoes.js"></script>
             
         <div id="interface">   
-<!--------------------------- Menu de procura lá em cima do site e o oculos grandão. ----------------------------------->
+
                 <header id="cabecalho">
                     <h1>Google Glass</h1>
                     <h2>A revolução do Google está chegando</h2>
@@ -46,7 +46,13 @@
                 <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
 
                 <section id="conteudo">
-                    <img src="_imagens/glass-esquema-marcado.jpg" alt=""/>
+                    <img src="_imagens/glass-esquema-marcado.jpg" usemap="#meumapa"/>
+                    <map name="meumapa">
+                        <area shape="rect" coords="181,207,268,243" href="google-glass.html#tela" target="janela"/>
+                        <area shape="circle" coords="157,243,12" href="google-glass.html#camera" target="janela"/>
+                        <area shape="circle" coords="75,50,11" href="google-glass.html#componentes" target="janela"/>
+                        <area shape="poly" coords="29,147,83,216,80,246,24,16130,144" href="google-glass.html#sensores" target="janela"/>
+                    </map>
                     <iframe src="google-glass.html" name="janela" id="frame-spec" scrolling="no" ></iframe>
                 </section>
             </article>
@@ -58,7 +64,7 @@
         Copyright 2013 - by Igor Hunguere Aguiar <br>
         <a href="https://www.facebook.com/igor.hunguere">facebook </a> | <a href="https://www.facebook.com/igor.hunguere"> Twitter</a>
     </footer>
-<!--teste-->
+
 </div>
 </body>
 
