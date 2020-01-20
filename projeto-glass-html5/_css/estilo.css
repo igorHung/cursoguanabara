@@ -224,14 +224,13 @@
                 margin: 1px;
 
             }
-            ul {
-                text-transform: uppercase;
+            header#cabecalho ul {
                 display: auto;
                 list-style: none;
                 position: absolute;
                 top: -20px;
                 left: 499px;
-                font-weight: bold;
+                font-weight: normal;
                 
             }
             nav#menu li:hover{
