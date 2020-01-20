@@ -17,7 +17,7 @@ ul#album-fotos li span{
 
 
 ul#album-fotos li:hover{
-    -webkit-transform: scale(1.5)
+    -webkit-transform: scale(1.3)
 }
 
 ul#album-fotos li:hover span{
